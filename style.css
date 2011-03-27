@@ -1,6 +1,64 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-  display:block;
-}
 html, body {
+  position:relative;
   font-family: Helvetica, Arial, Sans-serif;
+  background:#696969;
+  color:#FFFAF0;
+}
+
+ul{
+  list-style-type:none;
+}
+
+a:link{
+  color: #B0C4DE;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: #4682B4;
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+ul.link li[class]{
+  color: #B0C4DE;
+  text-decoration: underline;
+}
+
+ul.link li[class]:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#canvas {
+  height: 500px;
+  width: 3000px; /*to be adjusted by doc.ready.js */
+  overflow: hidden;
+  position: absolute;
+  top: 40px;
+  left: 110px;
+}
+
+.tile {
+  height: 470px;
+  width: 560px;
+  overflow: auto;
+  float: left;
+  padding: 15px 20px;
+}
+
+p {
+  width: 330px;
+}
+
+#links {
+  bottom: 0px;
+}
+
+#navigation li{
+  display: inline;
+  list-style-type: none;
 }
