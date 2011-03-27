@@ -1,0 +1,6 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+html, body {
+  font-family: Helvetica, Arial, Sans-serif;
+}
