@@ -1,7 +1,7 @@
 $(document).ready(function(){
   
   // set width of canvas
-  var total = $('#intro').outerWidth() + $('#about').outerWidth() + $('#school').outerWidth(true) + $('#contact').outerWidth(true);
+  var total = $('#intro').outerWidth() + $('#about').outerWidth() + $('#school').outerWidth(true) + $('#contact').outerWidth(true) + $('#awards').outerWidth(true) + $('#fun').outerWidth(true);
   $('#canvas').css({width: total });
 
   var emailaddress = 'ebuz' + '@' + 'bcs.rochester.edu';

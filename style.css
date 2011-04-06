@@ -5,6 +5,10 @@ html, body {
   color:#FFFAF0;
 }
 
+section{
+  width: 400px;
+}
+
 ul{
   list-style-type:none;
 }
