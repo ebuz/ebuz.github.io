@@ -38,7 +38,7 @@ ul.link li[class]:hover{
 }
 
 #canvas {
-  height: 500px;
+  height: 700px;
   width: 3000px; /*to be adjusted by doc.ready.js */
   overflow: hidden;
   position: absolute;
@@ -47,9 +47,9 @@ ul.link li[class]:hover{
 }
 
 .tile {
-  height: 470px;
+  height: 670px;
   width: 560px;
-  overflow: auto;
+  overflow: hidden;
   float: left;
   padding: 15px 20px;
 }
