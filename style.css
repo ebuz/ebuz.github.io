@@ -5,25 +5,25 @@ html, body {
   color:#FFFAF0;
 }
 
-section{
+section {
   width: 400px;
 }
 
-ul{
+ul {
   list-style-type:none;
 }
 
-a:link{
+a:link {
   color: #B0C4DE;
   text-decoration: underline;
 }
 
-a:visited{
+a:visited {
   color: #4682B4;
   text-decoration: underline;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ ul.link li[class]{
   text-decoration: underline;
 }
 
-ul.link li[class]:hover{
+ul.link li[class]:hover {
   text-decoration: none;
   cursor: pointer;
 }
@@ -62,7 +62,7 @@ p {
   bottom: 0px;
 }
 
-#navigation li{
+#navigation li {
   display: inline;
   list-style-type: none;
 }
